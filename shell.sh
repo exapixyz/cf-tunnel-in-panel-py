@@ -27,7 +27,6 @@ cd "$FOLDER" || { echo "❌ Folder '$FOLDER' tidak ditemukan!"; exit 1; }
 echo "📦 Menginstall dependencies..."
 
 echo "🚀 Menjalankan script dengan PM2..."
-pm2 start "python3 -m uvicorn main:app --host 0.0.0.0 --port 5014" --name fastapi"
 
 # === KEMBALI KE HOME ===
 cd ~
